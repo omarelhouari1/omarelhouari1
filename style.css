@@ -1,0 +1,80 @@
+/*Colors and fonts*/
+body {
+  background: rgb(230,230,230);
+  color: rgb(40,40,40);
+  font-family: arial;
+  font-size: 18px;
+  font-weight: lighter;
+  text-align: center;
+}
+h1, h2, h3 {
+  font-family: Courier;
+}
+h1 {
+color: red;
+font-size: 24px;
+font-weight: lighter;
+font-weight: bold;
+}
+h2,h3 {
+  color: green;
+}
+a {
+  text-decoration: none;
+  color:red;
+  font-height: bold;
+}
+a:hover {
+  color: purple
+}
+#image1 {
+  width: 250px;
+  border-radius: 40%;
+}
+.container {
+  width: 700px;
+  margin: 40px auto;
+  box-shadow: 0px 10px 35px rgba(0,0,0,0.1);
+  border-radius: 4px;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 35px rgba(10,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+}
+  .container {
+    width: 400px;
+  }
+  .text-center {
+   text-align: center;
+  }
+  .list-inline li {
+   display: inline;
+   padding: 15px;
+   font-size: 50px;
+  }
+@media {
+  .container {
+    width: 900px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+.btn-blue {
+  border: groove 5px green;
+  padding: 8px;
+  border-radius: 0 10px 10px 10px;
+  background-color : yellow;
+  color: black;
+}
